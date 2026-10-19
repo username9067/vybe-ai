@@ -167,11 +167,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Feature collection */}
-      <section
-        id="features"
-        className="px-5 py-20 md:px-14 md:py-24"
-      >
+      {/* Features */}
+      <section id="features" className="px-5 py-20 md:px-14 md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="mb-10 text-center">
             <p className="text-xs font-black tracking-[0.25em] text-fuchsia-300">
@@ -290,9 +287,9 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Footer with creator credit */}
+      {/* Footer */}
       <footer className="border-t border-white/10 px-6 py-10 md:px-14">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 sm:flex-row">
           <a href="#start" className="text-xl font-black">
             <span className="text-fuchsia-400">✳</span> VYBE
             <span className="text-cyan-300">AI</span>
@@ -308,8 +305,17 @@ export default function Home() {
             </p>
           </div>
 
+          <div className="flex flex-wrap justify-center gap-4 text-xs text-purple-100/50">
+            <a href="/terms" className="transition hover:text-cyan-300">
+              Terms & Conditions
+            </a>
+            <a href="/privacy" className="transition hover:text-cyan-300">
+              Privacy Policy
+            </a>
+          </div>
+
           <p className="text-xs text-purple-100/40">
-            © 2026 VYBE AI. All rights reserved.
+            © 2026 VYBE AI
           </p>
         </div>
       </footer>
